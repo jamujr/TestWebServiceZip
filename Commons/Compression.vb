@@ -149,10 +149,7 @@ Namespace Commons
                 gzipOut.SetLevel(1)
                 gzipOut.Finish()
 
-                Dim tmp As Byte() = ms.ToArray
-
                 Return ms.ToArray()
-
 
             End Using
         End Function
