@@ -113,6 +113,7 @@ Namespace Commons
             Dim compressedDS() As Byte
             compressedDS = DeflateDataPlus(UTF8.GetBytes(strXml))
 
+            '' return our compressed dataset
             Return compressedDS
         End Function
 
